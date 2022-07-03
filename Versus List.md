@@ -1,6 +1,6 @@
-GOlang V.S. JavaScript
-Rust V.S. JavaScript
-Java V.S. JavaScript
+GOlang V.S. JavaScript<br>
+Rust V.S. JavaScript<br>
+Java V.S. JavaScript<br>
 C V.S. JavaScript
 C# V.S. JavaScript
 C++ V.S. JavaScript
