@@ -2,11 +2,11 @@
 <strong>Language_2</strong> `N/Ams`<br>
 <br>
 <h3><strong>Language_1</strong> Result:</h3><br>
-```js
+<code lang="js">
 Language_1.Result;
-```
+</code>
 <br>
 <h3><strong>Language_2</strong> Result:</h3><br>
-```cpp
+<code lang="cpp">
 Language_2.Result;
-```
+</code>
