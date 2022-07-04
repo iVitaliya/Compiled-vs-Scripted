@@ -1,2 +1,5 @@
 <h3><strong>GOlang</strong> Result:<h3>
-<img src="./GOlang.Result.PNG">
+<p>
+  <img src="./GOlang.Result.PNG">
+  <img src="./JavaScript.Result.PNG">
+</p>
