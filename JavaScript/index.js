@@ -7,12 +7,14 @@ const Print = (...msg) => process.stdout.writable ? process.stdout.write(msg + "
 
 const LoopThru = (array) => {
     for (const element of array) {
-        Print(`${gray("[")}${blueBright("FOR-OF")} ${dim(yellowBright("LOOP"))}${gray("]")} Item: ${element}\n`);
+        Print(`${gray("[")}${blueBright("FOR-OF")} ${dim(yellowBright("LOOP"))}${gray("]")} Item: ${element}`);
     }
+    Print("");
     
     for (let i = 0; i < array.length; i++) {
-        Print(`${gray("[")}${blueBright("FOR-INDEX")} ${dim(yellowBright("LOOP"))}${gray("]")} Item: ${array[i]}\n`);
+        Print(`${gray("[")}${blueBright("FOR-INDEX")} ${dim(yellowBright("LOOP"))}${gray("]")} Item: ${array[i]}`);
     }
+    Print("");
 
     array.forEach((item) => {
         Print(`${gray("[")}${blueBright("FOR-EACH")} ${dim(yellowBright("LOOP"))}${gray("]")} Item: ${item}`);
